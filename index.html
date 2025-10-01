@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Whack-a-Mole</h1>
+    <br><br>
+    <div id="span">
+        <span id="span1">Score: </span>
+        <span id="score"> 0</span>
+    </div>
+    <button id="start_button" onclick="startGame()">start</button>
+    <div class="main_box">
+        <div class="circles" id="circle1"></div>
+        <div class="circles active" id="circle2"></div>
+        <div class="circles" id="circle3"></div>
+    </div>
+    <p id="win-message" style="display:none;">🎉 You Win!</p>
+<button id="restart-btn" style="display:none;">Restart</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
